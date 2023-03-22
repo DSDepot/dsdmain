@@ -1,0 +1,14 @@
+.list-group{
+    max-height: 800px;
+    margin-bottom: 10px;
+    overflow-y:auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.list-group-item:hover{
+    background-color:#a1abac;
+}
+
+.link-related:hover{
+    background-color:#a1abac;
+}
