@@ -56,7 +56,7 @@ $( document ).ready(function() {
     }
 
     // load data
-    $.getJSON("http://localhost:8000/data_w_emb.json", function( data ) {
+    $.getJSON("data_w_emb.json", function( data ) {
         for (var i = 0; i < data.length; ++i) {
             //console.log(data[i]["title"])
             if (data[i]["title"] == "") {
